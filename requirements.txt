@@ -1,0 +1,18 @@
+# Core — numpy<2 zorunlu (matplotlib/ultralytics uyumu)
+numpy>=1.24,<2
+
+# Deep learning
+torch>=2.2.0
+torchvision>=0.17.0
+ultralytics>=8.2.0
+
+# Breed detection (fine-grained ImageNet classifier)
+timm>=1.0.3
+
+# Web server
+fastapi>=0.111.0
+uvicorn[standard]>=0.29.0
+python-multipart>=0.0.9
+
+# Image processing
+Pillow>=10.0.0
